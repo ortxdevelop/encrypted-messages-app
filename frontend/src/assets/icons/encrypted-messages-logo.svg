@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Шар_1" data-name="Шар 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M100,300v-100C100,89.54,189.54,0,300,0s200,89.54,200,200v100h100v500H0v-500h100ZM200,200c0-55.23,44.77-100,100-100s100,44.77,100,100v100h-200v-100ZM250,650v-200h100v200h-100Z"/>
+</svg>
