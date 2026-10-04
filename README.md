@@ -10,19 +10,19 @@ Store your messages securely with end-to-end encryption
 
 ## Features
 
-- 🔒 **AES-256-GCM Encryption**. All messages are encrypted before storage
+- 🔒 **AES-256-GCM Encryption**: All messages are encrypted before storage
 
-- 🔑 **JWT Authentication**. Secure token-based authentication with refresh tokens
+- 🔑 **JWT Authentication**: Secure token-based authentication with refresh tokens
 
-- 🛡️ **BCrypt Password Hashing**. Industry-standard password security
+- 🛡️ **BCrypt Password Hashing**: Industry-standard password security
 
-- ⏱️ **Rate Limiting**. Protection against brute force attacks (5 attempts, 15 min lockout)
+- ⏱️ **Rate Limiting**: Protection against brute force attacks (5 attempts, 15 min lockout)
 
-- 📄 **Pagination**. Efficient message loading
+- 📄 **Pagination**: Efficient message loading
 
-- 📱 **Responsive Design**. Works on desktop, tablet and mobile
+- 📱 **Responsive Design**: Works on desktop, tablet and mobile
 
-- 🐳 **Docker Support**. Easy deployment with Docker Compose
+- 🐳 **Docker Support**: Easy deployment with Docker Compose
 
 ## Tech Stack
 
