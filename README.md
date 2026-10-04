@@ -136,7 +136,7 @@ cp frontend/.env.example frontend/.env
 
 ```bash
 
-docker-compose up -d
+docker compose up -d
 
 ```
 
@@ -228,31 +228,31 @@ Frontend runs on http://localhost:5173
 
 # Start all services
 
-docker-compose up -d
+docker compose up -d
 
 # Stop all services
 
-docker-compose down
+docker compose down
 
 # View logs
 
-docker-compose logs -f
+docker compose logs -f
 
 # View service logs
 
-docker-compose logs -f backend
+docker compose logs -f backend
 
-docker-compose logs -f frontend
+docker compose logs -f frontend
 
 # Rebuild after code changes
 
-docker-compose build --no-cache
+docker compose build --no-cache
 
-docker-compose up -d
+docker compose up -d
 
 # Remove all containers and volumes
 
-docker-compose down -v
+docker compose down -v
 
 ```
 
@@ -356,7 +356,7 @@ docker-compose.yml
 
 ```bash
 
-docker-compose logs backend
+docker compose logs backend
 
 ```
 
@@ -364,9 +364,9 @@ Check that JWT_SECRET and ENCRYPTION_KEY are properly set in backend/.env
 
 ### Frontend shows "Unable to connect to server"
 
-1. Check backend is running: `docker-compose ps`
+1. Check backend is running: `docker compose ps`
 
-2. Check backend logs: `docker-compose logs backend`
+2. Check backend logs: `docker compose logs backend`
 
 3. Verify nginx.conf configuration
 
@@ -374,7 +374,7 @@ Check that JWT_SECRET and ENCRYPTION_KEY are properly set in backend/.env
 
 ```bash
 
-docker-compose logs postgres
+docker compose logs postgres
 
 ```
 
